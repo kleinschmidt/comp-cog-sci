@@ -1,0 +1,20 @@
+# Half a lecture on computational modeling in cognitive science
+
+Want to keep things at a high level, focus on Bayesian modeling.  Go through some examples/toy problems at the start, then talk about speech perception for as long as I have.
+
+## Overall points to make:
+
+* Bayesian modeling describes how people reason under uncertainty
+* Is applied to lots of diferent cognitive and perceptual processes:
+    * speech perception
+    * depth perception
+    * moral reasoning
+    * concept learning
+    * categorization
+    * ...
+
+## Examples
+
+* explaining away. start at conceptual level first, ask people to think through it. then walk through probability distributions
+* cue combination: robbie's hand/foot temp example. 
+* categorical perception + perceptual magnet effect + maybe belief updating: start w/ speech sound continuum.  speech production/perception is probabilistic. 
