@@ -4,7 +4,9 @@ Want to keep things at a high level, focus on Bayesian modeling.  Go through som
 
 ## Overall points to make:
 
-* Bayesian modeling describes how people reason under uncertainty
+* Bayesian modeling describes how people reason under uncertainty.
+    * this is really important because we are basically never fully certain about things. even low-level perception processes have a lot of noise and uncertainty, even if we don't realize it consciously.
+    * Probability theory: how to combine multiple, uncertain pieces of information to draw conclusions _optimally_
 * Is applied to lots of diferent cognitive and perceptual processes:
     * speech perception
     * depth perception
@@ -12,9 +14,35 @@ Want to keep things at a high level, focus on Bayesian modeling.  Go through som
     * concept learning
     * categorization
     * ...
+* Generally, bayesian models are _computational level_ models: they describe the _task_ that the system carries out, and the information available to it, rather than how that information might be represented or how the computation might be carried out.
 
 ## Examples
 
 * explaining away. start at conceptual level first, ask people to think through it. then walk through probability distributions
-* cue combination: robbie's hand/foot temp example. 
-* categorical perception + perceptual magnet effect + maybe belief updating: start w/ speech sound continuum.  speech production/perception is probabilistic. 
+    * Let's say you go outside, notice the grass is wet.
+    * For the purposes of illustration, let's just think about two possible explanations: you left the sprinkler on overnight, or it rained.
+    * 
+* cue combination: robbie's hand/foot temp example.
+    * experiment with cue conflict: figure out how reliable two cues are individually, then test with both at the same time with a _conflict_ (ernst and banks, 2002/ernst and bueltoff, 2004). model predicts the relationship between _reliability_ (variance) and _weight_ (bias in combination with a conflict)
+* learning: backward blocking
+* categorical perception + perceptual magnet effect + maybe belief updating: start w/ speech sound continuum.  speech production/perception is probabilistic.
+
+# outline
+
+* general intro
+* cue combo
+    * gentle example:
+        * scientists love coffee. they also love bizarre thought experiments, so bear with me on this one.
+        * I'm reaching for my cup of coffee.  it looks to me that the cup is about 6cm wide, but my eyesight isn't great and because i haven't had my coffee yet I forgot to put on my glasses, and so that could be off by plus or minus 2cm.  when I grab my coffee cup, it _feels_ like it's more like 4cm, but of course it's hard to tell how big something is just by touch, so that's probably accurate within plus or minus 1cm.
+        * what's your best guess about how big the coffee cup is?
+        * what about after I put on my glasses, and it still looks to be about 6cm, but now I'm confident within plus or minus half a cm?
+    * formalize example
+        * this is an (admittedly silly) example of _multisensory perception_, and more generally, _cue combination_
+        * show distributions. p(size | vision), p(size | touch)
+        * walk through mean and variance
+        * show combined ('won't bore you with the math, but...')
+        * explain weights (directly related to variance, how narrow or confident the information is)
+    * experimental evidence
+        * okay this is a nice game to play but is something as basic as telling how big something is really doing all this fancy computation?
+        * (this is a general problem with models: it's fun to build these little machines but how do you relate them to what _people_ are doing? this is a big difference between AI and computational modeling)
+        * 
