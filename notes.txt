@@ -45,4 +45,10 @@ Want to keep things at a high level, focus on Bayesian modeling.  Go through som
     * experimental evidence
         * okay this is a nice game to play but is something as basic as telling how big something is really doing all this fancy computation?
         * (this is a general problem with models: it's fun to build these little machines but how do you relate them to what _people_ are doing? this is a big difference between AI and computational modeling)
-        * 
+        * remember that the weights are derived from the reliability of each cue individually
+        * ernst and banks (2002): determine reliability of visual and tactile cues in VR
+        * have people say whether something is bigger or smaller than another thing.
+        * test stimulus is consistent: visual and touch size are teh same.
+        * comparison stimulus has a _cue conflict_: looks bigger than it feels (this is why VR is important). changing reliability of one cue changes how much weight it gets and what the perceived size is.
+        * use model to predict what particular size---between the conflicting visual and haptic sizes---is perceived.
+        * compare 
